@@ -1,0 +1,10 @@
+<mvc:View controllerName="dmsui.controller.main"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <core:ComponentContainer usage="admin" height="100%" width="100%" async="false" manifest="true"/>
+        </content>
+    </Page>
+</mvc:View>
